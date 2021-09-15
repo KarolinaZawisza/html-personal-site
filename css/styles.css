@@ -1,0 +1,75 @@
+:root {
+--backgroundcolor: #DDDDDD;
+--darkcolor: #222831;
+--mediumcolor: #30475E;
+--lightcolor: #F05454;
+}
+
+.image {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+body {
+    background-color: var(--darkcolor);
+}
+
+hr {
+		border-color: var(--mediumcolor);
+		border-style: none;
+		border-top-style: dotted;
+		border-width: 10px;
+		width: 5%;
+}
+
+h1 {
+	color: var(--lightcolor);
+	font-family: PTSans, sans-serif;
+}
+
+h2 {
+	color: var(--lightcolor);
+	font-family: PTSans, sans-serif;
+}
+
+h3 {
+	color: var(--backgroundcolor);
+	font-family: PTSans, sans-serif;
+}
+
+h4 {
+	color: var(--lightcolor);
+	font-family: PTSans, sans-serif;
+}
+
+li {
+	color: var(--backgroundcolor);
+	font-family: PTSans, sans-serif;
+}
+
+a {
+	font-family: PTSans, sans-serif;
+}
+
+a:visited {
+	color: var(--lightcolor);
+}
+
+a:hover {
+	color: var(--mediumcolor)
+}
+
+p {
+	color: var(--backgroundcolor);
+	font-family: PTSans, sans-serif;
+}
+
+td {
+	color: var(--backgroundcolor);
+	font-family: PTSans, sans-serif;
+}
+
+th {
+	color: var(--backgroundcolor);
+	font-family: PTSans, sans-serif;
+}
