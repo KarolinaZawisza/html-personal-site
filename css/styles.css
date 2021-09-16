@@ -1,15 +1,42 @@
-:root {
+/* :root {
 --backgroundcolor: #DDDDDD;
 --darkcolor: #222831;
---mediumcolor: #30475E;
 --lightcolor: #F05454;
+--mediumcolor: #30475E;
+} */
+
+/* @font-face {
+	font-family: Lobster;
+	src:url("html-personal-site/fonts/Lobster-Regular.ttf");
+}
+
+#title {
+	font-family: Lobster;
+} */
+
+:root {
+--backgroundcolor: #264653;
+--darkcolor: #EDEDED;
+--lightcolor: #e76f51;
+--mediumcolor: #2a9d8f;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .image {
-	width: 150px;
-	height: 150px;
 	border-radius: 50%;
+	height: 150px;
+	width: 150px;
 }
+
+.red {
+	color: var(--lightcolor);
+}
+
 body {
     background-color: var(--darkcolor);
 }
