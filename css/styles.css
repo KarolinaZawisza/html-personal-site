@@ -1,30 +1,30 @@
-/* :root {
---backgroundcolor: #DDDDDD;
---darkcolor: #222831;
---lightcolor: #F05454;
---mediumcolor: #30475E;
-} */
-
-/* @font-face {
-	font-family: Lobster;
-	src:url("html-personal-site/fonts/Lobster-Regular.ttf");
-}
-
-#title {
-	font-family: Lobster;
-} */
-
 :root {
 --backgroundcolor: #264653;
+--light-background: #FAFAFA;
 --darkcolor: #EDEDED;
 --lightcolor: #e76f51;
 --mediumcolor: #2a9d8f;
 }
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+#menu {
+	position: fixed;
+}
+
+.mountain-image {
+	width: 60%;
+}
+
+.bottom-container {
+	background-color: var(--light-background);
+}
+
+.bottom-cloud{
+	position: absolute;
+	left: 30%;
+}
+
+.full-height {
+  height: 100%;
 }
 
 .image {
@@ -32,6 +32,96 @@
 	height: 150px;
 	width: 150px;
 }
+
+.middle-container {
+	background-color: var(--light-background);
+	padding-top: 50px;
+}
+
+.title-container {
+	padding-top: 50px;
+	color: var(--mediumcolor);
+	font-size: 30px;
+}
+
+.main-title {
+	font-family: 'Sacramento', cursive;
+}
+
+.top-cloud{
+	position: absolute;
+	left: 60%;
+}
+
+.top-container {
+	background-color: var(--darkcolor);
+	height: 100%;
+	padding-top: 70px;
+	position: relative;
+}
+
+a {
+	color: var(--lightcolor);
+}
+
+a:hover {
+	color: var(--mediumcolor);
+}
+
+a:visited {
+	color: var(--lightcolor);
+}
+
+body {
+	font-family: PTSans, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	color: var(--lightcolor);
+}
+
+h3 {
+	color: var(--backgroundcolor);
+}
+
+hr {
+		border-color: var(--mediumcolor);
+		border-style: none;
+		border-top-style: dotted;
+		border-width: 10px;
+		margin: auto;
+		width: 5%;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+	color: var(--backgroundcolor);
+}
+
+
+
+
+
+
+
+
+
+/* .center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
 
 .red {
 	color: var(--lightcolor);
@@ -41,13 +131,7 @@ body {
     background-color: var(--darkcolor);
 }
 
-hr {
-		border-color: var(--mediumcolor);
-		border-style: none;
-		border-top-style: dotted;
-		border-width: 10px;
-		width: 5%;
-}
+
 
 h1 {
 	color: var(--lightcolor);
@@ -56,7 +140,7 @@ h1 {
 
 h2 {
 	color: var(--lightcolor);
-	font-family: PTSans, sans-serif;
+
 }
 
 h3 {
@@ -99,4 +183,4 @@ td {
 th {
 	color: var(--backgroundcolor);
 	font-family: PTSans, sans-serif;
-}
+} */
