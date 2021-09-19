@@ -11,8 +11,8 @@
 }
 
 .bottom-container {
-	background-color: var(--darkcolor);
-
+	background-color: var(--mediumcolor);
+	padding-top: 30px;
 }
 
 .bottom-cloud{
@@ -26,14 +26,29 @@
 	color: var(--lightcolor);
 }
 
+.btn:hover {
+	color: var(--mediumcolor);
+}
+
+.btn:visited {
+	color: var(--mediumcolor);
+}
+
 .contact-me {
-	background: var(--darkcolor);
-	padding-top: 0.3rem;
+	background: var(--light-background);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 17px;
 }
 
 .image {
 		height: 150px;
 		width: 150px;
+}
+
+.footer-link {
+	color: var(--light-background);
+	padding: 0 15px;
 }
 
 .main-subtitle {
@@ -60,7 +75,7 @@
 .profile {
 	font-size: 20px;
 	margin-bottom: 100px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .skills {
@@ -102,15 +117,16 @@
 }
 
 a {
-	color: var(--mediumcolor);
+	color: var(--light-background);
+	text-decoration: none;
 }
 
 a:hover {
-	color: var(--lightcolor);
+	color: var(--darkcolor);
 }
 
 a:visited {
-	color: var(--mediumcolor);
+	color: var(--darkcolor);
 }
 
 body {
