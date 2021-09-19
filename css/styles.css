@@ -1,75 +1,149 @@
 :root {
---backgroundcolor: #DDDDDD;
---darkcolor: #222831;
---mediumcolor: #30475E;
---lightcolor: #F05454;
+--backgroundcolor: #264653;
+--light-background: #FAFAFA;
+--darkcolor: #EDEDED;
+--lightcolor: #e76f51;
+--mediumcolor: #2a9d8f;
+}
+
+#menu {
+	position: fixed;
+}
+
+.bottom-container {
+	background-color: var(--darkcolor);
+
+}
+
+.bottom-cloud{
+	position: absolute;
+	left: 30%;
+	height: 70px;
+	width: 250px;
+}
+
+.btn {
+	color: var(--lightcolor);
+}
+
+.contact-me {
+	background: var(--darkcolor);
+	padding-top: 0.3rem;
 }
 
 .image {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-}
-body {
-    background-color: var(--darkcolor);
+		height: 150px;
+		width: 150px;
 }
 
-hr {
-		border-color: var(--mediumcolor);
-		border-style: none;
-		border-top-style: dotted;
-		border-width: 10px;
-		width: 5%;
+.main-subtitle {
+	font-size: 2rem;
+	font-weight: normal;
+
+}
+
+.middle-container {
+	background-color: var(--light-background);
+	padding-top: 50px;
+}
+
+.mountain-image {
+	width: 60%;
+}
+
+.pfp {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+.profile {
+	font-size: 20px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.skills {
+	font-size: 20px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+.skill-row {
+	margin: 100px;
+}
+
+.styled-hr {
+	border-color: var(--mediumcolor);
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 10px;
+	margin: auto;
+	width: 5%;
+}
+
+.title-container {
+	color: var(--mediumcolor);
+  margin: 10% auto;
+}
+
+.top-cloud{
+	left: 60%;
+	position: absolute;
+	height: 70px;
+	width: 250px;
+}
+
+.top-container {
+	background-color: var(--darkcolor);
+	height: 100%;
+	padding-top: 100px;
+	position: relative;
+}
+
+a {
+	color: var(--mediumcolor);
+}
+
+a:hover {
+	color: var(--lightcolor);
+}
+
+a:visited {
+	color: var(--mediumcolor);
+}
+
+body {
+	font-family: PTSans, sans-serif;
+	margin: 0;
+	text-align: center;
 }
 
 h1 {
-	color: var(--lightcolor);
-	font-family: PTSans, sans-serif;
+	margin: 0;
+	font-size: 8rem;
+	font-family: 'Sacramento', cursive;
 }
 
 h2 {
 	color: var(--lightcolor);
-	font-family: PTSans, sans-serif;
 }
 
 h3 {
 	color: var(--backgroundcolor);
-	font-family: PTSans, sans-serif;
 }
 
-h4 {
-	color: var(--lightcolor);
-	font-family: PTSans, sans-serif;
+hr {
+		border-color: var(--mediumcolor);
+		border-style: solid;
+		border-width: 2px;
+		margin: 0;
 }
 
-li {
-	color: var(--backgroundcolor);
-	font-family: PTSans, sans-serif;
-}
-
-a {
-	font-family: PTSans, sans-serif;
-}
-
-a:visited {
-	color: var(--lightcolor);
-}
-
-a:hover {
-	color: var(--mediumcolor)
+html, body {
+  height: 100%;
 }
 
 p {
 	color: var(--backgroundcolor);
-	font-family: PTSans, sans-serif;
-}
-
-td {
-	color: var(--backgroundcolor);
-	font-family: PTSans, sans-serif;
-}
-
-th {
-	color: var(--backgroundcolor);
-	font-family: PTSans, sans-serif;
 }
